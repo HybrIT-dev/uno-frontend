@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.brandStart {
+  font-weight: 100;
+}
+
+.brandEnd {
+  font-weight: 600;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,15 +36,49 @@
 }
 
 .home-items {
-  align-self: center;
+  justify-content: space-evenly;
   width: 100%;
+  margin-top: 15px;
 }
 
 .choice-button {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  height: 240px;
 }
 
 .button-image {
   height: 100px;
   margin-left: 30px;
+}
+
+.choice-items {
+  justify-content: start;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.check-questions {
+  text-align: initial;
+}
+
+.check-question {
+  text-align: initial;
+  margin-bottom: 16px;
+}
+
+.check-continue {
+  margin-top: 16px;
+}
+
+.animationRoute {
+  width: 100%;
+}
+
+.result-items {
+  text-align: initial;
+}
+
+.result-card {
+  margin-top: 16px;
 }
