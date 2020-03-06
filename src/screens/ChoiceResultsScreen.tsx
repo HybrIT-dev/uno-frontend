@@ -1,11 +1,8 @@
 import React from 'react';
-import { Container } from "react-bootstrap";
-
-
 
 const ChoiceResultsScreen = () => {
   return (
-    <Container></Container>  
+    <div>Choice results</div>  
    )
 }
 

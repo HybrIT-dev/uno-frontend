@@ -1,9 +1,13 @@
 import React from 'react';
-import { Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const HomeScreen = () => {
  return (
-   <Container>Text</Container>  
+   <div>
+    <Button variant="primary" size="lg" block>Kies een merk</Button>
+    <Button variant="primary" size="lg" block>Ontdek een auto</Button>
+    <a href="">Sla over</a>
+  </div>
  )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Container } from "react-bootstrap";
 
 import HomeScreen from './screens/HomeScreen';
 import ChoiceResultsScreen from './screens/ChoiceResultsScreen';
@@ -12,6 +13,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+      <Container>
         <Router>
           <Switch>
             <Route path='/DealerAction' component={DealerActionScreen} />
@@ -21,6 +23,7 @@ function App() {
             <Route component={HomeScreen} />
           </Switch>
         </Router>
+      </Container>
     </div>
   );
 }
