@@ -24,4 +24,19 @@
 
 .container {
   height: 100vh;
+  display: flex;
+}
+
+.home-items {
+  align-self: center;
+  width: 100%;
+}
+
+.choice-button {
+  margin-bottom: 20px;
+}
+
+.button-image {
+  height: 100px;
+  margin-left: 30px;
 }
